@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Latiaya and Layla's Website</title>
+        <style>
+            body {
+                background: rgb(179, 128, 128);
+                color: rgb(188, 156, 150);
+                padding: 10px;
+                font-family: LucidaCalligraphy;
+            }
+            header {
+                font-size: 1.5em;
+                font-weight: bold;
+            }
+            [id=all-contents] {
+                
+                margin: auto;
+            }
+
+            /* navigation menu */
+            nav {
+                background: rgb(184, 185, 145);
+                margin: 0 auto;
+                display: flex;
+                padding: 10px;
+            }
+            nav header {
+                display: flex;
+                align-items: center;
+                color: rgb(255, 255, 255);
+                flex: 1;
+            }
+            nav ul {
+                list-style-image: none;
+            }
+            nav li {
+                display: inline-block;
+                padding: 0 10px;
+            }
+            nav a {
+                text-decoration: none;
+                color: #fff;
+            }
+
+            /* main container area beneath menu */
+            main {
+                background: rgb(245, 238, 219);
+                display: flex;
+            }
+            [class=sidebar] {
+                margin-right: 25px;
+                padding: 10px;
+            }
+            [class=sidebar] img {
+                width: 200px;
+                border-radius: 50px;
+            }
+            [class=content] {
+                flex: 1;
+                padding: 15px;
+            }
+            [class=interests] header {
+                font-size: 1.25em;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="all-contents">
+            <nav>
+                <header>Latiaya and Layla's website</header>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                </ul>
+            </nav>
+            <main>
+                <div class="sidebar">
+                    <img src="https://scontent-dfw1-1.xx.fbcdn.net/v/t1.0-9/11031120_10153457026680329_6214833963634167109_n.jpg?oh=421c4b3509cc8c4a6b7d01e5c77bd184&oe=57D7CD2C">
+                    <img src="https://scontent-dfw1-1.xx.fbcdn.net/v/t1.0-9/825_10154175665000329_4615322336233378997_n.jpg?oh=b72bbf3e4313346e5ad2e892da1e0442&oe=57D3E451">
+                </div> 
+                <div class="content">
+                    <header>Latiaya</header>
+                    <p>Layla's Mom</p>
+                    
+                    <section class="interests">
+                        <header>Interests</header>
+                        <ul>
+                            <li>Sports</li>
+                            <li>Beach & Water Parks</li>
+                            <li>Crawfish</li>
+                        </ul>
+                    </section>
+                </div>
+            </main>
+        </div>
+    </body>
+</html>
